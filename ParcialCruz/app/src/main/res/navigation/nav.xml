@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainActivity">
+
+    <fragment
+        android:id="@+id/info2"
+        android:name="com.example.parcialcruz.info"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/newairport"
+        android:name="com.example.parcialcruz.newairport"
+        android:label="fragment_newairport"
+        tools:layout="@layout/fragment_newairport" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.parcialcruz.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
