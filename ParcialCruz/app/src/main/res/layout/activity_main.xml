@@ -18,6 +18,14 @@
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="52dp" />
 
+    <ImageButton
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="652dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
