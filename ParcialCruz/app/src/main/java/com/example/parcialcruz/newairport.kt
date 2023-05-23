@@ -48,7 +48,7 @@ class NewMovieFragment : Fragment() {
     private fun observeStatus () {
         viewModel.status.observe(viewLifecycleOwner){ status ->
             when{
-                status.equals(MovieViewModel.MOVIE_CTREATTED) ->{
+                status.equals(Newa .AIRPORT_CTREATTED) ->{
                     Log.d("APP TAG", status)
                     Log.d("APP TAG", viewModel.getMovies().toString())
 
